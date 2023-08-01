@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style-meme.css" />
+  </head>
+  <body>
+    <section class="form-container">
+      <h1>Meme generator</h1>
+      <form action="" id="meme-form">
+        <label>Image Url:</label>
+        <input
+          type="url"
+          name=""
+          id="meme-url"
+          placeholder="Input your image link"
+        />
+        <br />
+        <label class="text">Top text:</label>
+        <input
+          type="text"
+          placeholder="Top text"
+          id="top-text"
+          class="top-input-field"
+        />
+        <br />
+        <label>Bottom text:</label>
+        <input type="text" placeholder="Bottom text" id="bottom-text" /> <br />
+        <input type="submit" value="Generate" id="generate-btn" />
+      </form>
+    </section>
+    <!-- image section -->
+    <section>
+      <div id="meme" class="meme-div">
+      </div>
+    </section>
+
+    <script src="meme-app.js"></script>
+  </body>
+</html>
